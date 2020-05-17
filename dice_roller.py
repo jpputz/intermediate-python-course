@@ -1,7 +1,7 @@
 import random
 
 def main():
-    dice_rolls = 10
+    dice_rolls = int(input("how many time you want to roll? "))
     dice_sum = 0
     for i in range(dice_rolls):
         roll = random.randint(1, 6)
